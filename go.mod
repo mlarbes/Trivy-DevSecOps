@@ -1,4 +1,4 @@
-module github.com/danielpacak/dev-sec-ops-seed
+module github.com/mlarbes/trivy-devsecops
 
 go 1.13
 
