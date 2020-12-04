@@ -25,4 +25,4 @@ jobs:
       - name: Scan image for vulnerabilities
         uses: docker://docker.io/aquasec/trivy:0.2.1
         with:
-          args: --cache-dir /var/lib/trivy --exit-code 1 --no-progress docker.pkg.github.com/danielpacak/dev-sec-ops-seed/seed:${{ github.sha }}
+          args: --cache-dir /var/lib/trivy --exit-code 1 --no-progress docker.pkg.github.com/mlarbes/trivy-devsecops/seed:${{ github.sha }}
