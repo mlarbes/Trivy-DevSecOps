@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
-	"github.com/danielpacak/dev-sec-ops-seed/pkg/etc"
-	"github.com/danielpacak/dev-sec-ops-seed/pkg/http/api"
+	"github.com/mlarbes/trivy-devsecops/pkg/etc"
+	"github.com/mlarbes/trivy-devsecops/pkg/http/api"
 	log "github.com/sirupsen/logrus"
 	"net/http"
 	"os"
